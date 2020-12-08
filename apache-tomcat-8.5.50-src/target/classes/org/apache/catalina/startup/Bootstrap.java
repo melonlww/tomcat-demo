@@ -35,6 +35,13 @@ import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 
 /**
+ * -Dcatalina.home=/Users/xmly/code/tomcat-demo/apache-tomcat-8.5.50-src/source
+ * -Dcatalina.base=/Users/xmly/code/tomcat-demo/apache-tomcat-8.5.50-src/source
+ * -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+ * -Djava.util.logging.config.file=/Users/xmly/code/tomcat-demo/apache-tomcat-8.5.50-src/source/conf/logging.properties
+ *
+ *
+ *
  * Bootstrap loader for Catalina.  This application constructs a class loader
  * for use in loading the Catalina internal classes (by accumulating all of the
  * JAR files found in the "server" directory under "catalina.home"), and
